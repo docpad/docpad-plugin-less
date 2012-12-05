@@ -8,6 +8,8 @@ module.exports = (BasePlugin) ->
 		# Plugin config
 		config:
 			compress: true
+			parseOptions: null
+			compileOptions: null
 			environments:
 				development:
 					compress: false
@@ -15,6 +17,7 @@ module.exports = (BasePlugin) ->
 		# Render some content
 		render: (opts,next) ->
 			# Prepare
+			config = @config
 			{inExtension,outExtension,templateData,file} = opts
 
 			# Check extensions
@@ -26,15 +29,32 @@ module.exports = (BasePlugin) ->
 				# Prepare
 				srcPath = file.get('fullPath')
 				dirPath = path.dirname(srcPath)
-				options =
+				parseOptions =
 					paths: [dirPath]
-					compress: @config.compress
+					filename: file.get('fullPath')
 
-				# Compile
-				new (less.Parser)(options).parse opts.content, (err, tree) ->
-					return next err  if err
-					opts.content = tree.toCSS(compress: options.compress)
-					next()
+				# Extend Parser Options
+				parseOptions[key] = value  for own key,value of config.parseOptions  if config.parseOptions
+
+				# Parse
+				new (less.Parser)(parseOptions).parse opts.content, (err,tree) ->
+					# Check
+					if err
+						err = new Error(less.formatError(err,parseOptions))
+						return next(err)
+
+					# Prepare
+					compileOptions =
+						compress: config.compress
+
+					# Extend Compile Options
+					compileOptions[key] = value  for own key,value of config.compileOptions  if config.compileOptions
+
+					# Compile
+					opts.content = tree.toCSS(compileOptions)
+
+					# Done
+					return next()
 
 			# Some other extension
 			else
