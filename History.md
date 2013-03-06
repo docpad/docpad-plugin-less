@@ -1,5 +1,11 @@
 ## History
 
+- v2.1.3 March 7, 2013
+	- Repackaged
+	- Dependency upgrades
+		-  `less` from 1.3.x to ~1.3.0
+		-  `coffee-script` from 1.4.x to ~1.4.0
+
 - v2.1.2 December 5, 2012
 	- Better error reporting
 	- We now parse less files with the `filename` option set to the file's `fullPath` (before we didn't send this at all)
