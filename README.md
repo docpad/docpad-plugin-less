@@ -14,7 +14,7 @@ Convention:  `.css.less`
 ## Install
 
 ```
-npm install --save docpad-plugin-less
+docpad install less
 ```
 
 
