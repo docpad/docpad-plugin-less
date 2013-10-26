@@ -1,44 +1,47 @@
 {
-	"name": "docpad-plugin-less",
-	"version": "2.2.0",
-	"description": "Adds support for the LESS CSS pre-processor to DocPad",
-	"homepage": "http://docpad.org/plugin/less",
-	"keywords": [
-		"docpad",
-		"docpad-plugin",
-		"less",
-		"less.js",
-		"lesscss",
-		"css",
-		"styles",
-		"styling"
-	],
-	"author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
-	"maintainers": [
-		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
-	],
-	"contributors": [
-		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
-	],
-	"bugs": {
-		"url":  "http://docpad.org/plugin/less/issues"
-	},
-	"repository" : {
-		"type": "git",
-		"url": "https://github.com/docpad/docpad-plugin-less.git"
-	},
-	"engines" : {
-		"node": ">=0.4",
-		"docpad": "6.x"
-	},
-	"dependencies": {
-		"less": "~1.4.2"
-	},
-	"devDependencies": {
-		"coffee-script": "~1.6.2"
-	},
-	"main": "./out/less.plugin.js",
-	"scripts": {
-		"test": "node ./out/less.test.js"
-	}
+  "name": "docpad-plugin-less",
+  "version": "2.2.0",
+  "description": "Adds support for the LESS CSS pre-processor to DocPad",
+  "homepage": "http://docpad.org/plugin/less",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "less",
+    "less.js",
+    "lesscss",
+    "css",
+    "styles",
+    "styling"
+  ],
+  "author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
+  "maintainers": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
+  "contributors": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
+  "bugs": {
+    "url": "http://docpad.org/plugin/less/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/docpad/docpad-plugin-less.git"
+  },
+  "engines": {
+    "node": ">=0.4",
+    "docpad": "6.x"
+  },
+  "dependencies": {
+    "less": "~1.4.2"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.2"
+  },
+  "main": "./out/less.plugin.js",
+  "scripts": {
+    "test": "node ./out/less.test.js"
+  },
+  "peerDependencies": {
+    "docpad": "6"
+  }
 }
