@@ -28,8 +28,7 @@
     "url": "https://github.com/docpad/docpad-plugin-less.git"
   },
   "engines": {
-    "node": ">=0.4",
-    "docpad": "6.x"
+    "node": ">=0.4"
   },
   "dependencies": {
     "less": "~1.4.2"
