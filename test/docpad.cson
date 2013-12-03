@@ -1,0 +1,8 @@
+# DocPad Configuration File
+# http://docpad.org/docs/config
+
+templateData:
+  site:
+    title: "DocPad LESS Renderer"
+    url: "http://github.com/docpad/docpad-plugin-less"
+    background: "yellow"
