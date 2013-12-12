@@ -21,7 +21,7 @@ module.exports = (BasePlugin) ->
 			{inExtension,outExtension,templateData,file} = opts
 
 			# Check extensions
-			if inExtension is 'less' and outExtension in ['css',null]
+			if inExtension is 'less' and outExtension in ['css','cssmin',null]
 				# Requires
 				path = require('path')
 				less = require('less')
