@@ -1,4 +1,11 @@
-## History
+# History
+
+- v2.3.0 December 12, 2013
+	- Added support for `cssmin` plugin
+		- Thanks to [Rob Loach](https://github.com/RobLoach) for [pull request #6](https://github.com/docpad/docpad-plugin-less/pull/6)
+	- Repackaged
+	- Dependency upgrades
+		-  `less` from ~1.4.2 to ~1.5.1
 
 - v2.2.0 July 28, 2013
 	- Dependency upgrades

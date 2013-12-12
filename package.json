@@ -1,8 +1,18 @@
 {
   "name": "docpad-plugin-less",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "Adds support for the LESS CSS pre-processor to DocPad",
   "homepage": "http://docpad.org/plugin/less",
+  "license": {
+    "type": "MIT"
+  },
+  "badges": {
+    "travis": true,
+    "npm": true,
+    "gittip": "bevry",
+    "flattr": "344188/balupton-on-Flattr",
+    "paypal": "QB8GQPZAH84N6"
+  },
   "keywords": [
     "docpad",
     "docpad-plugin",
@@ -13,7 +23,7 @@
     "styles",
     "styling"
   ],
-  "author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
+  "author": "2012+ Bevry Pty Ltd <us@bevry.me> (http://bevry.me), 2011 Benjamin Lupton <b@lupton.cc> (http://balupton.com)",
   "maintainers": [
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
@@ -31,16 +41,18 @@
     "node": ">=0.4"
   },
   "dependencies": {
-    "less": "~1.4.2"
+    "less": "~1.5.1"
+  },
+  "peerDependencies": {
+    "docpad": "6"
   },
   "devDependencies": {
-    "coffee-script": "~1.6.2"
+    "docpad": "6",
+    "coffee-script": "~1.6.2",
+    "projectz": "~0.3.0"
   },
   "main": "./out/less.plugin.js",
   "scripts": {
     "test": "node ./out/less.test.js"
-  },
-  "peerDependencies": {
-    "docpad": "6"
   }
 }
