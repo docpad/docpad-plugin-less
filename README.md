@@ -55,6 +55,7 @@ By default we compress the output for all environments except the development en
 These amazing people are maintaining this project:
 
 - Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)
+- Rob Loach <robloach@gmail.com> (https://github.com/RobLoach)
 
 ### Sponsors
 
@@ -68,7 +69,8 @@ No sponsors yet! Will you be the first?
 
 These amazing people have contributed code to this project:
 
-- Benjamin Lupton <b@lupton.cc> (https://github.com/balupton) - [view contributions](https://github.com/docpad/docpad-plugin-less/commits?author=balupton)
+- [Benjamin Lupton](https://github.com/balupton) <b@lupton.cc> — [view contributions](https://github.com/docpad/docpad-plugin-less/commits?author=balupton)
+- [Rob Loach](https://github.com/RobLoach) <robloach@gmail.com> — [view contributions](https://github.com/docpad/docpad-plugin-less/commits?author=RobLoach)
 
 [Become a contributor!](https://github.com/docpad/docpad-plugin-less/blob/master/CONTRIBUTING.md#files)
 

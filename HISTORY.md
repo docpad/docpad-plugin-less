@@ -1,5 +1,9 @@
 # History
 
+- v2.3.1 December 31, 2013
+	- Removed support for `cssmin` plugin, cssmin plugin now works differently
+		- Thanks to [Rob Loach](https://github.com/RobLoach) for [pull request #7](https://github.com/docpad/docpad-plugin-less/pull/7)
+
 - v2.3.0 December 12, 2013
 	- Added support for `cssmin` plugin
 		- Thanks to [Rob Loach](https://github.com/RobLoach) for [pull request #6](https://github.com/docpad/docpad-plugin-less/pull/6)
