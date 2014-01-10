@@ -36,7 +36,7 @@
     "Rob Loach <robloach@gmail.com> (https://github.com/RobLoach)"
   ],
   "bugs": {
-    "url": "http://docpad.org/plugin/less/issues"
+    "url": "https://github.com/docpad/docpad-plugin-less/issues"
   },
   "repository": {
     "type": "git",
@@ -54,7 +54,7 @@
   "devDependencies": {
     "docpad": "6",
     "coffee-script": "~1.6.2",
-    "projectz": "~0.3.2"
+    "projectz": "~0.3.9"
   },
   "main": "./out/less.plugin.js",
   "scripts": {
