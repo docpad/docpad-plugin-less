@@ -1,8 +1,10 @@
 # History
 
-- v2.4.0 January 3, 2013
-	- Dependency upgrades
-		-  `less` from ~1.5.1 to ~1.6.0
+- v2.4.1 January 28, 2014
+	- We now default `referencesOthers` to true if the less file imports other files
+
+- v2.4.0 January 3, 2014
+	- Updated dependencies
 
 - v2.3.1 December 31, 2013
 	- Removed support for `cssmin` plugin, cssmin plugin now works differently
@@ -12,17 +14,14 @@
 	- Added support for `cssmin` plugin
 		- Thanks to [Rob Loach](https://github.com/RobLoach) for [pull request #6](https://github.com/docpad/docpad-plugin-less/pull/6)
 	- Repackaged
-	- Dependency upgrades
-		-  `less` from ~1.4.2 to ~1.5.1
+	- Updated dependencies
 
 - v2.2.0 July 28, 2013
-	- Dependency upgrades
+	- Updated dependencies
 
 - v2.1.3 March 7, 2013
 	- Repackaged
-	- Dependency upgrades
-		-  `less` from 1.3.x to ~1.3.0
-		-  `coffee-script` from 1.4.x to ~1.4.0
+	- Updated dependencies
 
 - v2.1.2 December 5, 2012
 	- Better error reporting

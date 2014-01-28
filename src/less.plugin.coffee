@@ -17,30 +17,31 @@ module.exports = (BasePlugin) ->
 		# Render some content
 		render: (opts,next) ->
 			# Prepare
-			config = @config
-			{inExtension,outExtension,templateData,file} = opts
+			config = @getConfig()
+			{inExtension,outExtension,file} = opts
 
 			# Check extensions
 			if inExtension is 'less' and outExtension in ['css',null]
 				# Requires
-				path = require('path')
 				less = require('less')
 
 				# Prepare
-				srcPath = file.get('fullPath')
-				dirPath = path.dirname(srcPath)
 				parseOptions =
-					paths: [dirPath]
+					paths: [file.get('fullDirPath')]
 					filename: file.get('fullPath')
 
 				# Extend Parser Options
 				parseOptions[key] = value  for own key,value of config.parseOptions  if config.parseOptions
 
+				# Add Reference Others if this document does
+				# As lesscss concats imports
+				file.setMetaDefaults('referencesOthers': true)  if opts.content.indexOf('@import') isnt -1
+
 				# Parse
 				new (less.Parser)(parseOptions).parse opts.content, (err,tree) ->
 					# Check
 					if err
-						err = new Error(less.formatError(err,parseOptions))
+						err = new Error(less.formatError(err, parseOptions))
 						return next(err)
 
 					# Prepare
