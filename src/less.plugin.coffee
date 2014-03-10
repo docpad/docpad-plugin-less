@@ -33,10 +33,6 @@ module.exports = (BasePlugin) ->
 				# Extend Parser Options
 				parseOptions[key] = value  for own key,value of config.parseOptions  if config.parseOptions
 
-				# Add Reference Others if this document does
-				# As lesscss concats imports
-				file.setMetaDefaults('referencesOthers': true)  if opts.content.indexOf('@import') isnt -1
-
 				# Parse
 				new (less.Parser)(parseOptions).parse opts.content, (err,tree) ->
 					# Check
