@@ -55,7 +55,7 @@
   },
   "devDependencies": {
     "docpad": "6",
-    "coffee-script": "~1.7.0",
+    "coffee-script": "~1.8.0",
     "projectz": "~0.3.17"
   },
   "main": "./out/less.plugin.js",
