@@ -38,21 +38,10 @@ module.exports = (BasePlugin) ->
 				file.setMetaDefaults('referencesOthers': true)  if opts.content.indexOf('@import') isnt -1
 
 				# Parse
-				new (less.Parser)(parseOptions).parse opts.content, (err,tree) ->
-					# Check
+				less.render opts.content, parseOptions, (err, output) ->
 					if err
-						err = new Error(less.formatError(err, parseOptions))
 						return next(err)
-
-					# Prepare
-					compileOptions =
-						compress: config.compress
-
-					# Extend Compile Options
-					compileOptions[key] = value  for own key,value of config.compileOptions  if config.compileOptions
-
-					# Compile
-					opts.content = tree.toCSS(compileOptions)
+					opts.content = output.css
 
 					# Done
 					return next()
