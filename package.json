@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-less",
-  "version": "2.4.1",
+  "version": "2.5.0",
   "description": "Adds support for the LESS CSS pre-processor to DocPad",
   "homepage": "http://docpad.org/plugin/less",
   "license": {
@@ -48,7 +48,7 @@
     "node": ">=0.4"
   },
   "dependencies": {
-    "less": "~1.6.0"
+    "less": "~2.4.0"
   },
   "peerDependencies": {
     "docpad": "6"
