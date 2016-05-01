@@ -1,10 +1,10 @@
 import less from 'less';
 import '../helpers/polyfill.js';
 
-export default function(BasePlugin) {
+export default function (BasePlugin) {
 
   return class BaseClass extends BasePlugin {
-    constructor(...args) {
+    constructor (...args) {
       super(...args);
 
 
@@ -20,14 +20,14 @@ export default function(BasePlugin) {
       };
     }
 
-    get name() {
+    get name () {
       return 'less';
     }
 
-    render(opts, next) {
+    render (opts, next) {
       const { inExtension, outExtension, file } = opts;
 
-      if(inExtension !== 'less' || ['css', null].indexOf(outExtension) === -1) return next();
+      if (inExtension !== 'less' || ['css', null].indexOf(outExtension) === -1) return next();
 
       const parseOptions = {
         paths: file.get('fullDirPath'),
@@ -36,11 +36,14 @@ export default function(BasePlugin) {
 
       Object.assign(this.config, parseOptions);
 
-      if(opts.content.indexOf('@import') !== -1) {
+      if (opts.content.indexOf('@import') !== -1) {
         file.setMetaDefaults({referenceOthers: true});
       }
 
       less.render(opts.content, parseOptions, (err, data) => {
+
+        if (err) return next();
+
         opts.content = data.css;
         next();
       });
