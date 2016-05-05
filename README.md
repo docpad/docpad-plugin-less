@@ -1,17 +1,17 @@
 <!-- TITLE/ -->
 
-<h1>projectName</h1>
+<h1>docpad-plugin-less</h1>
 
 <!-- /TITLE -->
 
 
 <!-- BADGES/ -->
 
-<span class="badge-travisci"><a href="http://travis-ci.org/bevry/projectName" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/bevry/projectName/master.svg" alt="Travis CI Build Status" /></a></span>
-<span class="badge-npmversion"><a href="https://npmjs.org/package/test" title="View this project on NPM"><img src="https://img.shields.io/npm/v/test.svg" alt="NPM version" /></a></span>
-<span class="badge-npmdownloads"><a href="https://npmjs.org/package/test" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/test.svg" alt="NPM downloads" /></a></span>
-<span class="badge-daviddm"><a href="https://david-dm.org/bevry/projectName" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/bevry/projectName.svg" alt="Dependency Status" /></a></span>
-<span class="badge-daviddmdev"><a href="https://david-dm.org/bevry/projectName#info=devDependencies" title="View the status of this project's development dependencies on DavidDM"><img src="https://img.shields.io/david/dev/bevry/projectName.svg" alt="Dev Dependency Status" /></a></span>
+<span class="badge-travisci"><a href="http://travis-ci.org/sdomagala/docpad-plugin-less" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/sdomagala/docpad-plugin-less/master.svg" alt="Travis CI Build Status" /></a></span>
+<span class="badge-npmversion"><a href="https://npmjs.org/package/docpad-plugin-less" title="View this project on NPM"><img src="https://img.shields.io/npm/v/docpad-plugin-less.svg" alt="NPM version" /></a></span>
+<span class="badge-npmdownloads"><a href="https://npmjs.org/package/docpad-plugin-less" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/docpad-plugin-less.svg" alt="NPM downloads" /></a></span>
+<span class="badge-daviddm"><a href="https://david-dm.org/sdomagala/docpad-plugin-less" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/sdomagala/docpad-plugin-less.svg" alt="Dependency Status" /></a></span>
+<span class="badge-daviddmdev"><a href="https://david-dm.org/sdomagala/docpad-plugin-less#info=devDependencies" title="View the status of this project's development dependencies on DavidDM"><img src="https://img.shields.io/david/dev/sdomagala/docpad-plugin-less.svg" alt="Dev Dependency Status" /></a></span>
 <br class="badge-separator" />
 <span class="badge-slackin"><a href="https://slack.bevry.me" title="Join this project's slack community"><img src="https://slack.bevry.me/badge.svg" alt="Slack community badge" /></a></span>
 <span class="badge-patreon"><a href="http://patreon.com/bevry" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
@@ -26,7 +26,7 @@
 
 <!-- DESCRIPTION/ -->
 
-description
+Adds support for the LESS CSS pre-processor to DocPad
 
 <!-- /DESCRIPTION -->
 
@@ -35,28 +35,7 @@ description
 
 <h2>Install</h2>
 
-<a href="https://npmjs.com" title="npm is a package manager for javascript"><h3>NPM</h3></a><ul>
-<li>Install: <code>npm install --save test</code></li>
-<li>Module: <code>require('test')</code></li></ul>
-
-<a href="http://browserify.org" title="Browserify lets you require('modules') in the browser by bundling up all of your dependencies"><h3>Browserify</h3></a><ul>
-<li>Install: <code>npm install --save test</code></li>
-<li>Module: <code>require('test')</code></li>
-<li>CDN URL: <code>//wzrd.in/bundle/test@2.0.0</code></li></ul>
-
-<a href="http://enderjs.com" title="Ender is a full featured package manager for your browser"><h3>Ender</h3></a><ul>
-<li>Install: <code>ender add test</code></li>
-<li>Module: <code>require('test')</code></li></ul>
-
-<h3><a href="https://github.com/bevry/editions" title="Editions are the best way to produce and consume packages you care about.">Editions</a></h3>
-
-<p>This package is published with the following editions:</p>
-
-<ul><li><code>test</code> aliases <code>test/index.js</code> which uses <a href="https://github.com/bevry/editions" title="Editions are the best way to produce and consume packages you care about.">Editions</a> to automatically select the correct edition for the consumers environment</li>
-<li><code>test/source/index.js</code> is Source + <a href="https://babeljs.io/docs/learn-es2015/" title="ECMAScript Next">ESNext</a> + <a href="https://babeljs.io/docs/learn-es2015/#modules" title="ECMAScript Modules">Import</a> + <a href="http://flowtype.org/blog/2015/02/20/Flow-Comments.html" title="Flow is a static type checker for JavaScript">Flow Type Comments</a></li>
-<li><code>test/es2015/index.js</code> is <a href="https://babeljs.io" title="The compiler for writing next generation JavaScript">Babel</a> Compiled + <a href="http://babeljs.io/docs/plugins/preset-es2015/" title="ECMAScript 2015">ES2015</a> + <a href="https://nodejs.org/dist/latest-v5.x/docs/api/modules.html" title="Node/CJS Modules">Require</a></li></ul>
-
-<p>Older environments may need <a href="https://babeljs.io/docs/usage/polyfill/" title="A polyfill that emulates missing ECMAScript environment features">Babel's Polyfill</a> or something similar.</p>
+Install this DocPad plugin by entering <code>docpad install less</code> into your terminal.
 
 <!-- /INSTALL -->
 
@@ -67,7 +46,7 @@ description
 
 <h2>History</h2>
 
-<a href="https://github.com/bevry/projectName/blob/master/HISTORY.md#files">Discover the release history by heading on over to the <code>HISTORY.md</code> file.</a>
+<a href="https://github.com/sdomagala/docpad-plugin-less/blob/master/HISTORY.md#files">Discover the release history by heading on over to the <code>HISTORY.md</code> file.</a>
 
 <!-- /HISTORY -->
 
@@ -76,7 +55,7 @@ description
 
 <h2>Contribute</h2>
 
-<a href="https://github.com/bevry/projectName/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
+<a href="https://github.com/sdomagala/docpad-plugin-less/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
 
 <!-- /CONTRIBUTE -->
 
@@ -89,7 +68,7 @@ description
 
 These amazing people are maintaining this project:
 
-<ul><li><a href="https://github.com/balupton">Benjamin Lupton</a> — <a href="https://github.com/bevry/projectName/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/projectName">view contributions</a></li></ul>
+<ul><li><a href="https://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/sdomagala/docpad-plugin-less/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository sdomagala/docpad-plugin-less">view contributions</a></li></ul>
 
 <h3>Sponsors</h3>
 
@@ -106,9 +85,12 @@ No sponsors yet! Will you be the first?
 
 These amazing people have contributed code to this project:
 
-<ul><li><a href="https://github.com/balupton">Benjamin Lupton</a> — <a href="https://github.com/bevry/projectName/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/projectName">view contributions</a></li></ul>
+<ul><li><a href="https://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/sdomagala/docpad-plugin-less/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository sdomagala/docpad-plugin-less">view contributions</a></li>
+<li><a href="https://github.com/sdomagala">Sebastian Domagała</a> — <a href="https://github.com/sdomagala/docpad-plugin-less/commits?author=sdomagala" title="View the GitHub contributions of Sebastian Domagała on repository sdomagala/docpad-plugin-less">view contributions</a></li>
+<li><a href="http://robloach.net">Rob Loach</a> — <a href="https://github.com/sdomagala/docpad-plugin-less/commits?author=RobLoach" title="View the GitHub contributions of Rob Loach on repository sdomagala/docpad-plugin-less">view contributions</a></li>
+<li><a href="https://github.com/vsopvsop">vsopvsop</a> — <a href="https://github.com/sdomagala/docpad-plugin-less/commits?author=vsopvsop" title="View the GitHub contributions of vsopvsop on repository sdomagala/docpad-plugin-less">view contributions</a></li></ul>
 
-<a href="https://github.com/bevry/projectName/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
+<a href="https://github.com/sdomagala/docpad-plugin-less/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
 
 <!-- /BACKERS -->
 

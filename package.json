@@ -3,9 +3,7 @@
   "version": "2.4.1",
   "description": "Adds support for the LESS CSS pre-processor to DocPad",
   "homepage": "http://docpad.org/plugin/less",
-  "license": {
-    "type": "MIT"
-  },
+  "license": "MIT",
   "keywords": [
     "docpad",
     "docpad-plugin",
@@ -44,10 +42,13 @@
   },
   "author": "2016+ Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
   "maintainers": [
-    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+    "Benjamin Lupton <b@lupton.cc> (https://balupton.com)"
   ],
   "contributors": [
-    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+    "Benjamin Lupton <b@lupton.cc> (https://balupton.com)",
+    "Sebastian Domagała (https://github.com/sdomagala)",
+    "Rob Loach <robloach@gmail.com> (http://robloach.net)",
+    "vsopvsop (https://github.com/vsopvsop)"
   ],
   "bugs": {
     "url": "https://github.com/docpad/docpad-plugin-less/issues"
