@@ -42,7 +42,7 @@ export default function (BasePlugin) {
 
       less.render(opts.content, parseOptions, (err, data) => {
 
-        if (err) return next();
+        if (err) return next(err);
 
         opts.content = data.css;
         next();
