@@ -7,11 +7,11 @@
 
 <!-- BADGES/ -->
 
-<span class="badge-travisci"><a href="http://travis-ci.org/sdomagala/docpad-plugin-less" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/sdomagala/docpad-plugin-less/master.svg" alt="Travis CI Build Status" /></a></span>
+<span class="badge-travisci"><a href="http://travis-ci.org/docpad/docpad-plugin-less" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/docpad/docpad-plugin-less/master.svg" alt="Travis CI Build Status" /></a></span>
 <span class="badge-npmversion"><a href="https://npmjs.org/package/docpad-plugin-less" title="View this project on NPM"><img src="https://img.shields.io/npm/v/docpad-plugin-less.svg" alt="NPM version" /></a></span>
 <span class="badge-npmdownloads"><a href="https://npmjs.org/package/docpad-plugin-less" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/docpad-plugin-less.svg" alt="NPM downloads" /></a></span>
-<span class="badge-daviddm"><a href="https://david-dm.org/sdomagala/docpad-plugin-less" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/sdomagala/docpad-plugin-less.svg" alt="Dependency Status" /></a></span>
-<span class="badge-daviddmdev"><a href="https://david-dm.org/sdomagala/docpad-plugin-less#info=devDependencies" title="View the status of this project's development dependencies on DavidDM"><img src="https://img.shields.io/david/dev/sdomagala/docpad-plugin-less.svg" alt="Dev Dependency Status" /></a></span>
+<span class="badge-daviddm"><a href="https://david-dm.org/docpad/docpad-plugin-less" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/docpad/docpad-plugin-less.svg" alt="Dependency Status" /></a></span>
+<span class="badge-daviddmdev"><a href="https://david-dm.org/docpad/docpad-plugin-less#info=devDependencies" title="View the status of this project's development dependencies on DavidDM"><img src="https://img.shields.io/david/dev/docpad/docpad-plugin-less.svg" alt="Dev Dependency Status" /></a></span>
 <br class="badge-separator" />
 <span class="badge-slackin"><a href="https://slack.bevry.me" title="Join this project's slack community"><img src="https://slack.bevry.me/badge.svg" alt="Slack community badge" /></a></span>
 <span class="badge-patreon"><a href="http://patreon.com/bevry" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
@@ -46,7 +46,7 @@ Install this DocPad plugin by entering <code>docpad install less</code> into you
 
 <h2>History</h2>
 
-<a href="https://github.com/sdomagala/docpad-plugin-less/blob/master/HISTORY.md#files">Discover the release history by heading on over to the <code>HISTORY.md</code> file.</a>
+<a href="https://github.com/docpad/docpad-plugin-less/blob/master/HISTORY.md#files">Discover the release history by heading on over to the <code>HISTORY.md</code> file.</a>
 
 <!-- /HISTORY -->
 
@@ -55,7 +55,7 @@ Install this DocPad plugin by entering <code>docpad install less</code> into you
 
 <h2>Contribute</h2>
 
-<a href="https://github.com/sdomagala/docpad-plugin-less/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
+<a href="https://github.com/docpad/docpad-plugin-less/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
 
 <!-- /CONTRIBUTE -->
 
@@ -68,7 +68,7 @@ Install this DocPad plugin by entering <code>docpad install less</code> into you
 
 These amazing people are maintaining this project:
 
-<ul><li><a href="https://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/sdomagala/docpad-plugin-less/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository sdomagala/docpad-plugin-less">view contributions</a></li></ul>
+<ul><li><a href="https://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/docpad/docpad-plugin-less/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository docpad/docpad-plugin-less">view contributions</a></li></ul>
 
 <h3>Sponsors</h3>
 
@@ -85,12 +85,12 @@ No sponsors yet! Will you be the first?
 
 These amazing people have contributed code to this project:
 
-<ul><li><a href="https://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/sdomagala/docpad-plugin-less/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository sdomagala/docpad-plugin-less">view contributions</a></li>
-<li><a href="https://github.com/sdomagala">Sebastian Domagała</a> — <a href="https://github.com/sdomagala/docpad-plugin-less/commits?author=sdomagala" title="View the GitHub contributions of Sebastian Domagała on repository sdomagala/docpad-plugin-less">view contributions</a></li>
-<li><a href="http://robloach.net">Rob Loach</a> — <a href="https://github.com/sdomagala/docpad-plugin-less/commits?author=RobLoach" title="View the GitHub contributions of Rob Loach on repository sdomagala/docpad-plugin-less">view contributions</a></li>
-<li><a href="https://github.com/vsopvsop">vsopvsop</a> — <a href="https://github.com/sdomagala/docpad-plugin-less/commits?author=vsopvsop" title="View the GitHub contributions of vsopvsop on repository sdomagala/docpad-plugin-less">view contributions</a></li></ul>
+<ul><li><a href="https://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/docpad/docpad-plugin-less/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository docpad/docpad-plugin-less">view contributions</a></li>
+<li><a href="https://github.com/sdomagala">Sebastian Domagała</a> — <a href="https://github.com/docpad/docpad-plugin-less/commits?author=sdomagala" title="View the GitHub contributions of Sebastian Domagała on repository docpad/docpad-plugin-less">view contributions</a></li>
+<li><a href="http://robloach.net">Rob Loach</a> — <a href="https://github.com/docpad/docpad-plugin-less/commits?author=RobLoach" title="View the GitHub contributions of Rob Loach on repository docpad/docpad-plugin-less">view contributions</a></li>
+<li><a href="https://github.com/vsopvsop">vsopvsop</a> — <a href="https://github.com/docpad/docpad-plugin-less/commits?author=vsopvsop" title="View the GitHub contributions of vsopvsop on repository docpad/docpad-plugin-less">view contributions</a></li></ul>
 
-<a href="https://github.com/sdomagala/docpad-plugin-less/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
+<a href="https://github.com/docpad/docpad-plugin-less/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
 
 <!-- /BACKERS -->
 

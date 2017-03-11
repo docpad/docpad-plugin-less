@@ -746,7 +746,7 @@ var config = {
     // Plugins
 
     // Not sure why, but okay
-      'babel/no-await-in-loop': WARN,
+      'no-await-in-loop': WARN,
       'flow-vars/define-flow-type': WARN,
       'flow-vars/use-flow-type': WARN
   }
@@ -769,12 +769,8 @@ if ( 'eslint-plugin-react' in package.devDependencies ) {
 if ( 'eslint-plugin-babel' in package.devDependencies ) {
   config.plugins.push('babel')
   var replacements = [
-    'array-bracket-spacing',
     'new-cap',
-    'object-curly-spacing',
-    'arrow-parens',
-    'generator-star-spacing',
-    'object-shorthand'
+    'object-curly-spacing'
   ]
   replacements.forEach(function (key) {
     if ( key in config.rules ) {
