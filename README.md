@@ -70,6 +70,7 @@ As an example, to inverse these defaults, you would provide in your [DocPad Conf
           lessOptions:
             compress: true,
             sourceMap: false
+}
 ```
 
 
