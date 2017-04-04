@@ -2,6 +2,7 @@
 
 ## v2.5.1 2017 April 4
 - Fixed issue with not properly handled callback
+  - Thanks to [Ángel González](https://github.com/Aglezabad) for [issue #18](https://github.com/docpad/docpad-plugin-less/issues/18) and [Sebastian Domagała](https://github.com/sdomagala) for [pull request #19](https://github.com/docpad/docpad-plugin-less/pull/19)
 
 ## v2.5.0 2017 March 29
 - Upgraded Less CSS from v1.6 to v2.6, which keeps the same syntax
