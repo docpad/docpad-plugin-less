@@ -1,5 +1,8 @@
 # History
 
+## v2.5.1 2017 April 4
+- Fixed issue with not properly handled callback
+
 ## v2.5.0 2017 March 29
 - Upgraded Less CSS from v1.6 to v2.6, which keeps the same syntax
   - Thanks to [RobLoach](https://github.com/RobLoach) for the initial work on this with [pull request #15](https://github.com/docpad/docpad-plugin-less/pull/15)
