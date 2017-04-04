@@ -63,6 +63,9 @@ module.exports = function (BasePlugin) {
 					next()
 				})
 			}
+			else {
+				next()
+			}
 		}
 	}
 
