@@ -1,3 +1,4 @@
+/* eslint class-methods-use-this:0 */
 'use strict'
 
 // Export Plugin
@@ -57,11 +58,12 @@ module.exports = function (BasePlugin) {
 
 				// now render the content with less css
 				// http://lesscss.org/#using-less-usage-in-code
-				less.render(opts.content, lessOptions, function (err, data) {
-					if (err) return next(err)
-					opts.content = data.css
-					next()
-				})
+				less.render(opts.content, lessOptions)
+					.then(function (data) {
+						opts.content = data.css
+						next()
+					})
+					.catch(next)
 			}
 			else {
 				next()

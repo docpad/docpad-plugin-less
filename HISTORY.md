@@ -1,5 +1,10 @@
 # History
 
+## v2.6.0 2018 July 11
+- Updated base files using [boundation](https://github.com/bevry/boundation)
+- Compiled with CoffeeScript v2
+- Updated dependencies
+
 ## v2.5.1 2017 April 4
 - Fixed issue with not properly handled callback
   - Thanks to [Ángel González](https://github.com/Aglezabad) for [issue #18](https://github.com/docpad/docpad-plugin-less/issues/18) and [Sebastian Domagała](https://github.com/sdomagala) for [pull request #19](https://github.com/docpad/docpad-plugin-less/pull/19)
