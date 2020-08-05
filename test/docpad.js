@@ -9,10 +9,10 @@ module.exports = {
 			plugins: {
 				less: {
 					lessOptions: {
-						sourceMap: false
-					}
-				}
-			}
-		}
-	}
+						sourceMap: false,
+					},
+				},
+			},
+		},
+	},
 }
