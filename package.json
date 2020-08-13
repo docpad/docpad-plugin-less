@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-less",
-  "version": "2.7.0",
+  "version": "2.7.1",
   "description": "Adds support for the LESS CSS pre-processor to DocPad",
   "homepage": "https://github.com/docpad/docpad-plugin-less",
   "license": "MIT",
@@ -97,14 +97,14 @@
   "devDependencies": {
     "@bevry/update-contributors": "^1.15.0",
     "docpad": "^6.83.1",
-    "docpad-plugintester": "^1.6.2",
+    "docpad-plugintester": "^1.7.1",
     "eslint": "^7.6.0",
     "eslint-config-bevry": "^3.18.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
     "prettier": "^2.0.5",
     "projectz": "^2.13.0",
-    "valid-directory": "^2.8.0"
+    "valid-directory": "^3.0.0"
   },
   "scripts": {
     "our:clean": "rm -Rf ./docs ./edition* ./es2015 ./es5 ./out ./.next",
