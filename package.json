@@ -93,7 +93,7 @@
   "dependencies": {
     "docpad-baseplugin": "^1.4.0",
     "extendr": "^5.16.0",
-    "less": "^3.12.2"
+    "less": "^4.2.0"
   },
   "devDependencies": {
     "@bevry/update-contributors": "^1.18.0",
